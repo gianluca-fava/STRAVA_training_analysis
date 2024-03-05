@@ -30,7 +30,7 @@ http://localhost/?state=&code=XXXXXXXXXXXXX&scope=read,activity:read_all
    
 https://www.strava.com/oauth/token?client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET&code=YOUR_CODE_FROM_PREVIOUS_STEP&grant_type=authorization_code
 
-7) In Postmat, make a new request with POST and paste the link created in step 3) and take from the response "access_token": XXXXXXXX and "refresh_token": YYYYYYY (it will be needed later)
+7) In Postmat, make a new request with POST and paste the link created in step 5) and take from the response "access_token": XXXXXXXX and "refresh_token": YYYYYYY (it will be needed later)
 
 8) Exchange: ACCESS_TOKEN_PREVIOUS_STEP
 
@@ -41,6 +41,8 @@ https://www.strava.com/api/v3/athlete/activities?access_token=ACCESS_TOKEN_PREVI
 7) Exchange: YOUR_CLIENT_ID, YOUR_CLIENT_SECRET, YOUR_REFRESH_TOKEN_PREVIOUS_STEP (the "refresh_token": YYYYYYY from step 4))
 
 https://www.strava.com/oauth/token?client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET&refresh_token=YOUR_REFRESH_TOKEN_PREVIOUS_STEP&grant_type=refresh_token
+
+8) New POST request with the link from point 7) will save 'refresh_token' : ZZZZZZ which will be the new and final token to make updates when new activities are uploaded
 
 
 
