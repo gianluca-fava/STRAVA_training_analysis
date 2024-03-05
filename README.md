@@ -23,14 +23,16 @@ To access all activities, follow these steps:
 https://www.strava.com/oauth/authorize?client_id=YOUR_CLIENT_ID&redirect_uri=http://localhost&response_type=code&scope=activity:read_all
 
 3) The page will not give any result, but in the URL there will be code = XXXXXXXX, copy that code:
+   
 http://localhost/?state=&code=XXXXXXXXXXXXX&scope=read,activity:read_all
 
-4) Exchange: YOUR_CLIENT_ID, YOUR_CLIENT_SECRET, YOUR_CODE_FROM_PREVIOUS_STEP (do not look for it in the browser)
+5) Exchange: YOUR_CLIENT_ID, YOUR_CLIENT_SECRET, YOUR_CODE_FROM_PREVIOUS_STEP (do not look for it in the browser)
+   
 https://www.strava.com/oauth/token?client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET&code=YOUR_CODE_FROM_PREVIOUS_STEP&grant_type=authorization_code
 
-5) In Postmat, make a new request with POST and paste the link created in step 3) and take from the response "access_token": XXXXXXXX and "refresh_token": YYYYYYY (it will be needed later)
+7) In Postmat, make a new request with POST and paste the link created in step 3) and take from the response "access_token": XXXXXXXX and "refresh_token": YYYYYYY (it will be needed later)
 
-6) Exchange: ACCESS_TOKEN_PREVIOUS_STEP
+8) Exchange: ACCESS_TOKEN_PREVIOUS_STEP
 
 https://www.strava.com/api/v3/athlete/activities?access_token=ACCESS_TOKEN_PREVIOUS_STEP
 
