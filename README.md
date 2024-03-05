@@ -45,12 +45,10 @@ https://www.strava.com/oauth/token?client_id=YOUR_CLIENT_ID&client_secret=YOUR_C
 8) New POST request with the link from point 7) will save 'refresh_token' : ZZZZZZ which will be the new and final token to make updates when new activities are uploaded
 
 
+### Configuration
 
+For the configuration you have to create an .env file (I put it in the PRIVATE folder where I had to put other things so that I could ignore them with the gitignore) this file should look like this (the REFRESH_TOKEN is the one taken from step 8) above):
 
-
-
-
-For the configuration you have to create an .env file (I put it in the PRIVATE folder where I had to put other things so that I could ignore them with the gitignore) this file should look like this:
 CLIENT_ID=XXXX
 CLIENT_SECRET=XXXXXXXXX
 REFRESH_TOKEN=XXXXXXXXX
