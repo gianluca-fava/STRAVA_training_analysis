@@ -59,7 +59,7 @@ REFRESH_TOKEN=XXXXXXXXX
 # OWN website (free) on AWS
 
 ### EC2 instance
-Name and tags : WEB_personal_statistics
+Name and tags : WEB_Strava_stats
 Application and OS Images: Amazon Linux (or anyone with 'free tier elegible')
 Instance type: t2.micro (or anyone with 'free tier elegible')
 Key pair name: if you have already one you can select that or creat a new one
@@ -73,7 +73,7 @@ In the new page just opened, scroll down and select 'Edit Inboud rules': Add two
 For both the 'Source' is 0.0.0.0/0; then 'Save rules'
 
 ### Connect the website to EC2 instance 
-From Instance dashboard: select the new instance, WEB_personal_statistics, click 'Actions' and select 'Connect'.
+From Instance dashboard: select the new instance, WEB_Strava_stats, click 'Actions' and select 'Connect'.
 In the new window let everything as default and click 'Connect'.
 
 In the console just opened let's switch to root user, and install httpd:
@@ -81,9 +81,10 @@ sudo su -
 yum update -y
 yum install -y httpd
 
-mkdir temp
-cd temp
 
+mkdir aws_assg3
+cd aws_assg3
+wget <repo git>
  
 
 
