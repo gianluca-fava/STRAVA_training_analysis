@@ -70,7 +70,7 @@ Then click 'Launch instance'
 Now we need to activate HTTP and HTTPS acces:
 click on the Instance ID, in the opened page, scroll down untill you see the security button, select on it and click on the 'Security groups'.
 In the new page just opened, scroll down and select 'Edit Inboud rules': Add two rule one for HTTP and one for HTTPS.
-Then 'Save rules'
+For both the 'Source' is 0.0.0.0/0; then 'Save rules'
 
 ### Connect the website to EC2 instance 
 From Instance dashboard: select the new instance, WEB_personal_statistics, click 'Actions' and select 'Connect'.
