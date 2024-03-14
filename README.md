@@ -52,3 +52,25 @@ For the configuration you have to create an .env file (I put it in the PRIVATE f
 CLIENT_ID=XXXX
 CLIENT_SECRET=XXXXXXXXX
 REFRESH_TOKEN=XXXXXXXXX
+
+
+
+
+# OWN website (free) on AWS
+
+### EC2 instance
+Name and tags : WEB_personal_statistics
+Application and OS Images: Amazon Linux (or anyone with 'free tier elegible')
+Instance type: t2.micro (or anyone with 'free tier elegible')
+Key pair name: if you have already one you can select that or creat a new one
+everything else default
+
+Then click 'Launch instance'
+
+### connect the website to EC2 instance
+
+
+
+
+
+
