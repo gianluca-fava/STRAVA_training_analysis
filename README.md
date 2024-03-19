@@ -85,6 +85,16 @@ yum install -y httpd
 mkdir aws_assg3
 cd aws_assg3
 wget <repo git>
+
+
+
+new bucket S3
+upload file html
+bucket->propreties->Static website hosting->Edit->Enable->Index document=name file uploaded->Save
+bucket->permission->Block public access (bucket settings)->Edit->Uncheck box 'Block all public access'->save
+bucket->Select all the element inside->permission->Object Ownership->Edit->ACLs enabled->save
+bucket->Select all the element inside->Actions->Make public using ACL->Make public
+bucket->file.html->Object URL
  
 
 
