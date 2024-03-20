@@ -60,16 +60,21 @@ REFRESH_TOKEN=XXXXXXXXX
 
 ## Create Bucket
 new bucket S3
+
 upload file html
+
 bucket->propreties->Static website hosting->Edit->Enable->Index document=name file uploaded->Save
+
 bucket->permission->Block public access (bucket settings)->Edit->Uncheck box 'Block all public access'->save
+
 bucket->Select all the element inside->permission->Object Ownership->Edit->ACLs enabled->save
+
 bucket->Select all the element inside->Actions->Make public using ACL->Make public
+
 bucket->file.html->Object URL
 
 ## Create automatic uploader in AWS
 1. In S3, create a new IAM user:
-   
    IAM -> User -> Create User : name = STRAVA
 
    Next
@@ -82,8 +87,11 @@ bucket->file.html->Object URL
    
 3. Create access key:
    IAM -> User -> STRAVA :  Access key 1 -> 'Create access key'
+   
    'Application running on an AWS compute service' -> Next
+   
    IMPORTANT!! Save the 'Access key' and the 'Secret access key'
+   
 
 
 
