@@ -69,12 +69,18 @@ bucket->file.html->Object URL
 
 ## Create automatic uploader in AWS
 1. In S3, create a new IAM user:
+   
    IAM -> User -> Create User : name = STRAVA
+
    Next
+   
    On Permissions options -> Attach policies directly -> select 'AdministratorAccess'	(AWS managed - job function)
+   
    Next
+   
    Create User
-2. Create access key:
+   
+3. Create access key:
    IAM -> User -> STRAVA :  Access key 1 -> 'Create access key'
    'Application running on an AWS compute service' -> Next
    IMPORTANT!! Save the 'Access key' and the 'Secret access key'
