@@ -58,36 +58,7 @@ REFRESH_TOKEN=XXXXXXXXX
 
 # OWN website (free) on AWS
 
-### EC2 instance
-Name and tags : WEB_Strava_stats
-Application and OS Images: Amazon Linux (or anyone with 'free tier elegible')
-Instance type: t2.micro (or anyone with 'free tier elegible')
-Key pair name: if you have already one you can select that or creat a new one
-everything else default
-
-Then click 'Launch instance'
-
-Now we need to activate HTTP and HTTPS acces:
-click on the Instance ID, in the opened page, scroll down untill you see the security button, select on it and click on the 'Security groups'.
-In the new page just opened, scroll down and select 'Edit Inboud rules': Add two rule one for HTTP and one for HTTPS.
-For both the 'Source' is 0.0.0.0/0; then 'Save rules'
-
-### Connect the website to EC2 instance 
-From Instance dashboard: select the new instance, WEB_Strava_stats, click 'Actions' and select 'Connect'.
-In the new window let everything as default and click 'Connect'.
-
-In the console just opened let's switch to root user, and install httpd:
-sudo su -
-yum update -y
-yum install -y httpd
-
-
-mkdir aws_assg3
-cd aws_assg3
-wget <repo git>
-
-
-
+## Create Bucket
 new bucket S3
 upload file html
 bucket->propreties->Static website hosting->Edit->Enable->Index document=name file uploaded->Save
@@ -95,9 +66,18 @@ bucket->permission->Block public access (bucket settings)->Edit->Uncheck box 'Bl
 bucket->Select all the element inside->permission->Object Ownership->Edit->ACLs enabled->save
 bucket->Select all the element inside->Actions->Make public using ACL->Make public
 bucket->file.html->Object URL
- 
 
-
+## Create automatic uploader in AWS
+1. In S3, create a new IAM user:
+   IAM -> User -> Create User : name = STRAVA
+   Next
+   On Permissions options -> Attach policies directly -> select 'AdministratorAccess'	(AWS managed - job function)
+   Next
+   Create User
+2. Create access key:
+   IAM -> User -> STRAVA :  Access key 1 -> 'Create access key'
+   'Application running on an AWS compute service' -> Next
+   IMPORTANT!! Save the 'Access key' and the 'Secret access key'
 
 
 
