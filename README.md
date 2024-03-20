@@ -59,6 +59,7 @@ REFRESH_TOKEN=XXXXXXXXX
 # OWN website (free) on AWS
 
 ## Create Bucket
+
 new bucket S3
 
 upload file html
@@ -74,7 +75,9 @@ bucket->Select all the element inside->Actions->Make public using ACL->Make publ
 bucket->file.html->Object URL
 
 ## Create automatic uploader in AWS
+
 1. In S3, create a new IAM user:
+   
    IAM -> User -> Create User : name = STRAVA
 
    Next
@@ -86,6 +89,7 @@ bucket->file.html->Object URL
    Create User
    
 3. Create access key:
+
    IAM -> User -> STRAVA :  Access key 1 -> 'Create access key'
    
    'Application running on an AWS compute service' -> Next
