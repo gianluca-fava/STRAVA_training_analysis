@@ -88,13 +88,7 @@ bucket->file.html->Object URL
    
    Create User
    
-3. Create access key:
-
-   IAM -> User -> STRAVA :  Access key 1 -> 'Create access key'
-   
-   'Application running on an AWS compute service' -> Next
-   
-   IMPORTANT!! Save the 'Access key' and the 'Secret access key'
+3. Create access key , create aws credentials
    
 
 
