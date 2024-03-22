@@ -54,7 +54,6 @@ CLIENT_SECRET=XXXXXXXXX
 REFRESH_TOKEN=XXXXXXXXX
 
 # API for single activity
-pip install zuora-swagger-client
 
 
 
