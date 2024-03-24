@@ -3,7 +3,8 @@ import os
 from dotenv import load_dotenv
 import json
 from datetime import datetime
-from itertools import islice
+import random
+
 
 '''
 !!!! In the .env file there must be CLIENT_ID, CLIENT_SECRET, REFRESH_TOKEN !!!!
@@ -71,7 +72,7 @@ activites_url = "https://www.strava.com/api/v3/athlete/activities"  # URL for re
 data = request_data(activites_url).json()
 
 #save data.json
-with open("data.json", "w") as file:
+with open("Data/data.json", "w") as file:
     json.dump(data, file, indent=4)
 
 print("Activities data has been successfully retrieved")
@@ -84,18 +85,18 @@ also because for each activity you need to make 2 requests and there is a risk o
 '''
 
 # I open the just-created data.json and read the date of the last activity
-with open('data.json', 'r') as file:
+with open('Data/data.json', 'r') as file:
     data = json.load(file)
 
 # I check if the file already exists and it's not void:
-if os.path.exists('data_detailed.json') and os.path.getsize('data_detailed.json') > 2:
+if os.path.exists('Data/data_detailed.json') and os.path.getsize('Data/data_detailed.json') > 2:
 
     data_not_updated = []  # only the data following the first (most recent) date in data_detailed
     old_data_not_loaded = [] # only the data following the last (less recent) date in data_detailed
 
     print('data_detailed.json already exists')
     # open data_detailed.json
-    with open('data_detailed.json', 'r') as file:
+    with open('Data/data_detailed.json', 'r') as file:
         data_detailed = json.load(file)
 
     # Remove the timezone part (Z) from the string and parse it
@@ -148,10 +149,35 @@ else:
     # If it doesn't exist I create it
     data_detailed = []
 
-    with open("data_detailed.json", "w") as file:
+    with open("Data/data_detailed.json", "w") as file:
         json.dump(data_detailed, file)
 
     print('data_detailed.json created')
+
+'''
+Function to determine the colour of the activity, choose from a personally chosen list
+'''
+
+
+def generate_color(color_in):
+    if color_in == 'red':
+        # types of red to choose from
+        type_of_red = ["#DF2424", '#B01111', '#9E0F0F', '#EC4040', '#FF0000', '#BC0000', '#A42B2B']
+
+        # Random selection of a red type in HEX format
+        casual_index = random.randint(0, len(type_of_red) - 1)
+        color = type_of_red[casual_index]
+
+
+    elif color_in == 'blue':
+        # types of red to choose from
+        type_of_blue = ['#0036FF', '#082DB8', '#2A51DF', '#032397', '#0000FF', '#1356B8', '#0C0574']
+
+        # Random selection of a red type in HEX format
+        casual_index = random.randint(0, len(type_of_blue) - 1)
+        color = type_of_blue[casual_index]
+
+    return color
 
 
 '''
@@ -179,10 +205,10 @@ def add_activity_data_detailed(ID_activity, position):
             data_activity['photos'] = data_photo  # replaces the contents of 'photos' with the correct photo details (we need the links)
 
             #my interest is to differentiate Via Ferrata from normal hike so I change the colour
-            if 'Ferrata' in activity['name']:
-                data_activity['color'] = 'red'
+            if 'Ferrat' in activity['name']:
+                data_activity['color'] = generate_color('red')
             else:
-                data_activity['color'] = 'blue'
+                data_activity['color'] =  generate_color('blue')
 
             #I position the data correctly according to whether it goes at the top or at the bottom
             if position == 'bottom':
@@ -191,7 +217,7 @@ def add_activity_data_detailed(ID_activity, position):
                 data_detailed.insert(0, data_activity)
 
             # since there are so many requests to be made, it is likely that they cannot all be done in one run, so I save each time
-            with open("data_detailed.json", "w") as file:
+            with open("Data/data_detailed.json", "w") as file:
                 json.dump(data_detailed, file, indent=4)
 
         else:
@@ -208,14 +234,6 @@ def add_activity_data_detailed(ID_activity, position):
         print(f"An unexpected error occurred: {e}")
 
 
-##REMOVE
-with open("data_not_updated.json", "w") as file:
-    json.dump(data_not_updated, file)
-
-with open("old_data_not_loaded.json", "w") as file:
-    json.dump(old_data_not_loaded, file)
-
-
 # Utilizza islice per iterare solo sulle prime tre attività in data_not_updated
 for activity in reversed(data_not_updated):
     ID_activity = activity['id']  # Ottieni l'ID dell'attività
@@ -228,7 +246,9 @@ for activity in reversed(old_data_not_loaded):
 print('data_detailed saved correctly')
 
 
-
-
-
-
+'''
+save 49 activities each time it is executed (100 requests available):
+- 1 request data.json (general)
+- 49 request data_detailed.json (for the activity)
+- 49 request data_detailed.json (for the photo)
+'''

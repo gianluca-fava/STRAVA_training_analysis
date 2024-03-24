@@ -5,6 +5,67 @@
             "id": 66821364,
             "resource_state": 1
         },
+        "name": "Rifugio Scarpa",
+        "distance": 16323.7,
+        "moving_time": 15245,
+        "elapsed_time": 20278,
+        "total_elevation_gain": 827.5,
+        "type": "Hike",
+        "sport_type": "Hike",
+        "id": 11028418975,
+        "start_date": "2024-03-24T08:02:18Z",
+        "start_date_local": "2024-03-24T09:02:18Z",
+        "timezone": "(GMT+01:00) Europe/Rome",
+        "utc_offset": 3600.0,
+        "location_city": null,
+        "location_state": null,
+        "location_country": null,
+        "achievement_count": 0,
+        "kudos_count": 1,
+        "comment_count": 0,
+        "athlete_count": 1,
+        "photo_count": 0,
+        "map": {
+            "id": "a11028418975",
+            "summary_polyline": "eqeyG}uahA]yAJoEL\\_@zD^qDQe@cAVaA|Cw@u@FeAq@QS^Fg@c@c@g@J?^m@\\RfAaA^d@dAO?ZrAOt@Nz@e@l@RVe@FZBi@Jf@d@oBIEb@wAg@FhB]~@i@JNv@y@rCZLSfAVl@JnA[HA^PzATAUP^\\a@^`@@k@HAl@TRe@bAPx@SRx@VCrAZl@UZz@p@Iv@QAAjAY\\LZOn@[AOrAh@Zc@a@ShAqAEF|@oAf@H`@g@GBj@y@Cc@t@Mc@NB]EBbAUUUF@^_@AIf@RZk@Lf@n@DbA]PT`BYVTz@]@\\ZE^i@HN@QUCr@RRa@NEFN\\U]}AVUzAs@dAMY@h@uAvB[vDgB`Ck@jBm@^c@?Z}AI_CNBBbBYzBoA|BmD`B{@bBCGm@QwBt@{AbC\\tBQCL~AQfAo@jAqAj@Sp@yAd@LSMl@_Ad@a@WiB^mAo@qAj@aFDy@gBoAg@o@~@wAJa@SHa@@Ze@LmBiDoAgAo@EIy@oAe@aACwAw@H_@i@MWy@mBDe@c@mAR?cAOLc@k@i@FEi@a@AIu@M\\Gc@KLKi@MPCe@e@g@UHc@v@i@D[m@wALU_Aa@G@wAs@cCpAuITkLJRWuAXGS@@@ONVXBrCWnCYTsBcKmBuD{@eGkAs@MaCU]v@qCLoCnAg@Ru@G{ASs@rCvCnBxD?uDWeAjBNXnAPa@V^TYCuDs@qAlABdBvBZCeAsEoAmA`Db@Kw@]m@nAJtAxAbCOl@oJ`A{Co@g@dBoC_@_@sBd@vBsEj@OeA]mATHaDZ_Ar@Ws@}@sAAhBuD|@FpAbAlBQOy@wAgAuCsAzCMhB`@wCkEb@`@tDVtBhAxBfCaB_IaByCzE`@fA]RxCzAtG]~ALt@WrCHhAvB|@X~AWhAxArFKrDX_Ad@bAi@fENSML@o@Dp@n@Jl@eA|DgAH}@^Mp@gCGi@x@wFSK?qALaAXISWRI\\DSE^k@\\DIQd@SGUXFHiAbAA\\{@dAs@v@H~AdCn@RZj@OP|Ab@^GPl@|Ae@l@@`Dn@Xn@fAvA~BVl@z@`B@?uCvAc@p@f@xCe@^w@zAeA`BYxAeBhEZ\\u@zAc@`@A|A|@WXl@rA\\?Jq@N|@dB|@L`A",
+            "resource_state": 2
+        },
+        "trainer": false,
+        "commute": false,
+        "manual": false,
+        "private": false,
+        "visibility": "everyone",
+        "flagged": false,
+        "gear_id": null,
+        "start_latlng": [
+            46.236519,
+            11.974231
+        ],
+        "end_latlng": [
+            46.236491,
+            11.974135
+        ],
+        "average_speed": 1.071,
+        "max_speed": 8.18,
+        "has_heartrate": false,
+        "heartrate_opt_out": false,
+        "display_hide_heartrate_option": false,
+        "elev_high": 1725.2,
+        "elev_low": 1164.9,
+        "upload_id": 11789126862,
+        "upload_id_str": "11789126862",
+        "external_id": "11334248-C3CE-4597-9E49-C31468D29833-activity.fit",
+        "from_accepted_tag": false,
+        "pr_count": 0,
+        "total_photo_count": 1,
+        "has_kudoed": false
+    },
+    {
+        "resource_state": 2,
+        "athlete": {
+            "id": 66821364,
+            "resource_state": 1
+        },
         "name": "3x3000m con 500m recupero",
         "distance": 10653.5,
         "moving_time": 3251,
@@ -59,8 +120,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#38a2b1"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -115,8 +175,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#4b558e"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -178,8 +237,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#016e53"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -241,8 +299,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#5a4ddb"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -303,8 +360,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 1,
-        "has_kudoed": false,
-        "color": "#143f61"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -366,8 +422,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#2cfa2e"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -428,8 +483,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 2,
-        "has_kudoed": false,
-        "color": "#b344a4"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -491,8 +545,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#b33b21"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -554,8 +607,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#db9d46"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -618,8 +670,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#7fee39"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -681,8 +732,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#32749c"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -744,8 +794,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#bea884"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -806,8 +855,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 2,
-        "has_kudoed": false,
-        "color": "#91e5cb"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -869,8 +917,7 @@
         "from_accepted_tag": false,
         "pr_count": 2,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#4da849"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -932,8 +979,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#0843d8"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -994,8 +1040,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#DD721E"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1057,8 +1102,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#4f97aa"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1120,8 +1164,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#f13bfb"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1182,8 +1225,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#3a78f5"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1244,8 +1286,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#ef0558"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1306,8 +1347,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 1,
-        "has_kudoed": false,
-        "color": "#3f6b5e"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1369,8 +1409,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#c26b2b"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1431,8 +1470,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 1,
-        "has_kudoed": false,
-        "color": "#058e85"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1493,8 +1531,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#6c264c"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1556,8 +1593,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#905fb4"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1619,8 +1655,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#4ab88b"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1681,8 +1716,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 2,
-        "has_kudoed": false,
-        "color": "#f289de"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1743,8 +1777,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#00FD08"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1806,8 +1839,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#a7a57e"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1869,8 +1901,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#c15f7d"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1931,8 +1962,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#c1b67e"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -1994,8 +2024,7 @@
         "from_accepted_tag": false,
         "pr_count": 3,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#65cafd"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2057,8 +2086,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#595f68"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2119,8 +2147,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 2,
-        "has_kudoed": false,
-        "color": "#5bb309"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2181,8 +2208,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 1,
-        "has_kudoed": false,
-        "color": "#e36187"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2244,8 +2270,7 @@
         "from_accepted_tag": false,
         "pr_count": 2,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#2b4b40"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2307,8 +2332,7 @@
         "from_accepted_tag": false,
         "pr_count": 5,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#1ea36f"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2370,8 +2394,7 @@
         "from_accepted_tag": false,
         "pr_count": 2,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#b3fac5"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2433,8 +2456,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#eda591"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2497,8 +2519,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#59e1b5"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2561,8 +2582,7 @@
         "from_accepted_tag": false,
         "pr_count": 3,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#0e08e8"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2623,8 +2643,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#58a1c4"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2687,8 +2706,7 @@
         "from_accepted_tag": false,
         "pr_count": 2,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#d8a919"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2749,8 +2767,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 1,
-        "has_kudoed": false,
-        "color": "#9db3a2"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2811,8 +2828,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#712c23"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2875,8 +2891,7 @@
         "from_accepted_tag": false,
         "pr_count": 5,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#ee7f5f"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -2938,8 +2953,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#d57458"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3002,8 +3016,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#13fc03"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3065,8 +3078,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#826fbb"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3128,8 +3140,7 @@
         "from_accepted_tag": false,
         "pr_count": 7,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#9c23a2"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3191,8 +3202,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#878d32"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3253,8 +3263,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#a646c6"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3316,8 +3325,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#08480a"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3379,8 +3387,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#342d57"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3435,8 +3442,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#70e241"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3497,8 +3503,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#3ad3f1"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3559,8 +3564,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 3,
-        "has_kudoed": false,
-        "color": "#68de1a"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3622,8 +3626,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#15dcc0"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3678,8 +3681,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#be19f4"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3741,8 +3743,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#bbad88"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3797,8 +3798,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#27b665"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3859,8 +3859,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#DB7093"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3921,8 +3920,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#21fef9"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -3983,8 +3981,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#735e61"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4045,8 +4042,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#6f38d6"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4107,8 +4103,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 2,
-        "has_kudoed": false,
-        "color": "#7a15bb"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4169,8 +4164,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#9d42f2"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4231,8 +4225,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 4,
-        "has_kudoed": false,
-        "color": "#FF6347"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4295,8 +4288,7 @@
         "from_accepted_tag": false,
         "pr_count": 4,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#85718b"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4349,8 +4341,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#c324dc"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4413,8 +4404,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#c2fec5"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4467,8 +4457,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#65601d"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4531,8 +4520,7 @@
         "from_accepted_tag": false,
         "pr_count": 7,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#1faa1a"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4585,8 +4573,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#bc844c"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4648,8 +4635,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#4ea063"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4702,8 +4688,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#64f7c5"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4764,8 +4749,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 4,
-        "has_kudoed": false,
-        "color": "#a5431d"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4818,8 +4802,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#94ac48"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4882,8 +4865,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#4284b0"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4945,8 +4927,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#129a42"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -4999,8 +4980,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#be78fa"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5053,8 +5033,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#52ac17"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5115,8 +5094,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 3,
-        "has_kudoed": false,
-        "color": "#6691a9"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5179,8 +5157,7 @@
         "from_accepted_tag": false,
         "pr_count": 4,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#101974"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5233,8 +5210,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#6d5c03"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5297,8 +5273,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#b169d6"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5361,8 +5336,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#f53f56"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5425,8 +5399,7 @@
         "from_accepted_tag": false,
         "pr_count": 5,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#1a4451"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5488,8 +5461,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#62ea2e"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5550,8 +5522,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#0054FD"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5604,8 +5575,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#eb48fc"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5666,8 +5636,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 2,
-        "has_kudoed": false,
-        "color": "#19c639"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5729,8 +5698,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#912caa"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5783,8 +5751,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#a4296f"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5846,8 +5813,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#c2aac9"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5908,8 +5874,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#31ae3a"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -5971,8 +5936,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#55bece"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6034,8 +5998,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#b74057"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6096,8 +6059,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 1,
-        "has_kudoed": false,
-        "color": "#bcad3a"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6159,8 +6121,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#8cd8a3"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6221,8 +6182,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#69fe34"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6283,8 +6243,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 2,
-        "has_kudoed": false,
-        "color": "#1b4253"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6345,8 +6304,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#8d30f8"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6407,8 +6365,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#eedc41"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6469,8 +6426,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#968ba1"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6531,8 +6487,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#18cf9f"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6593,8 +6548,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#96a3ed"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6656,8 +6610,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#0ce220"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6718,8 +6671,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#DD721E"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6780,8 +6732,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#163772"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6842,8 +6793,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#b79662"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6906,8 +6856,7 @@
         "from_accepted_tag": false,
         "pr_count": 1,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#37c389"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -6968,8 +6917,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#654324"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7030,8 +6978,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#754362"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7084,8 +7031,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#0cc102"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7148,8 +7094,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#f73734"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7210,8 +7155,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#4fa65f"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7272,8 +7216,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#3f47b2"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7326,8 +7269,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#4bcc95"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7380,8 +7322,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#10364a"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7442,8 +7383,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 3,
-        "has_kudoed": false,
-        "color": "#06f253"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7496,8 +7436,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#cdd21f"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7550,8 +7489,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#ae332d"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7612,8 +7550,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#0665e9"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7675,8 +7612,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#7c5c29"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7737,8 +7673,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#758c47"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7791,8 +7726,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#abac1d"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7855,8 +7789,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#2bfbd0"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7917,8 +7850,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 2,
-        "has_kudoed": false,
-        "color": "#3224cf"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -7980,8 +7912,7 @@
         "from_accepted_tag": false,
         "pr_count": 3,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#26f87b"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8034,8 +7965,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#68452e"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8088,8 +8018,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#9a76d0"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8142,8 +8071,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#3e4825"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8204,8 +8132,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#514421"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8266,8 +8193,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#2ba9f1"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8330,8 +8256,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#a87496"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8384,8 +8309,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#7595b7"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8438,8 +8362,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#7fd4e9"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8500,8 +8423,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#8c4ee7"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8564,8 +8486,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#342114"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8618,8 +8539,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#fe395a"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8672,8 +8592,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#431221"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8726,8 +8645,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#4a0ea0"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8780,8 +8698,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#37de9c"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8842,8 +8759,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 3,
-        "has_kudoed": false,
-        "color": "#c70beb"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8904,8 +8820,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#2014a9"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -8958,8 +8873,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#b73fd5"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9021,8 +8935,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#938214"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9075,8 +8988,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#2d203a"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9129,8 +9041,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#4979d2"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9183,8 +9094,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#c4e3b0"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9245,8 +9155,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#5b797a"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9307,8 +9216,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#b58f81"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9361,8 +9269,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#af1a20"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9415,8 +9322,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#d3efb5"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9469,8 +9375,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#81b90c"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9523,8 +9428,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#c6477a"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9585,8 +9489,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#0c2e15"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9647,8 +9550,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 2,
-        "has_kudoed": false,
-        "color": "#929ccc"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9701,8 +9603,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#0c792f"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9755,8 +9656,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#020e1d"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9809,8 +9709,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#913671"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9863,8 +9762,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#68d4e7"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9917,8 +9815,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#895f33"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -9971,8 +9868,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#6b2e5a"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10025,8 +9921,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#56fe78"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10079,8 +9974,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#a1bbfc"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10133,8 +10027,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#8509f1"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10187,8 +10080,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#efadb4"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10250,8 +10142,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#40a93b"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10304,8 +10195,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#e5730e"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10358,8 +10248,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#271bc5"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10412,8 +10301,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#5afcb4"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10475,8 +10363,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#f76e6d"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10529,8 +10416,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#915683"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10593,8 +10479,7 @@
         "pr_count": 0,
         "total_photo_count": 0,
         "has_kudoed": false,
-        "suffer_score": 15.0,
-        "color": "#5352ee"
+        "suffer_score": 15.0
     },
     {
         "resource_state": 2,
@@ -10647,8 +10532,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#06830b"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10710,8 +10594,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#7f7c7e"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10774,8 +10657,7 @@
         "pr_count": 0,
         "total_photo_count": 0,
         "has_kudoed": false,
-        "suffer_score": 25.0,
-        "color": "#246e52"
+        "suffer_score": 25.0
     },
     {
         "resource_state": 2,
@@ -10828,8 +10710,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#8eef85"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -10883,8 +10764,7 @@
         "pr_count": 0,
         "total_photo_count": 0,
         "has_kudoed": false,
-        "suffer_score": 112.0,
-        "color": "#d8a11b"
+        "suffer_score": 112.0
     },
     {
         "resource_state": 2,
@@ -10945,8 +10825,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 3,
-        "has_kudoed": false,
-        "color": "#2d9854"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -11007,8 +10886,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#986c6d"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -11070,8 +10948,7 @@
         "pr_count": 0,
         "total_photo_count": 4,
         "has_kudoed": false,
-        "suffer_score": 151.0,
-        "color": "#9a694d"
+        "suffer_score": 151.0
     },
     {
         "resource_state": 2,
@@ -11132,8 +11009,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#3641b6"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -11194,8 +11070,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 3,
-        "has_kudoed": false,
-        "color": "#47e436"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -11256,8 +11131,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#16afa2"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -11318,8 +11192,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 2,
-        "has_kudoed": false,
-        "color": "#a43655"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -11373,8 +11246,7 @@
         "pr_count": 0,
         "total_photo_count": 0,
         "has_kudoed": false,
-        "suffer_score": 80.0,
-        "color": "#b0dfd4"
+        "suffer_score": 80.0
     },
     {
         "resource_state": 2,
@@ -11428,8 +11300,7 @@
         "pr_count": 0,
         "total_photo_count": 0,
         "has_kudoed": false,
-        "suffer_score": 361.0,
-        "color": "#7e47ad"
+        "suffer_score": 361.0
     },
     {
         "resource_state": 2,
@@ -11483,8 +11354,7 @@
         "pr_count": 0,
         "total_photo_count": 0,
         "has_kudoed": false,
-        "suffer_score": 106.0,
-        "color": "#96392e"
+        "suffer_score": 106.0
     },
     {
         "resource_state": 2,
@@ -11538,8 +11408,7 @@
         "pr_count": 0,
         "total_photo_count": 0,
         "has_kudoed": false,
-        "suffer_score": 213.0,
-        "color": "#c8b110"
+        "suffer_score": 213.0
     },
     {
         "resource_state": 2,
@@ -11592,8 +11461,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#3273c0"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -11656,8 +11524,7 @@
         "pr_count": 0,
         "total_photo_count": 0,
         "has_kudoed": false,
-        "suffer_score": 112.0,
-        "color": "#dbb66d"
+        "suffer_score": 112.0
     },
     {
         "resource_state": 2,
@@ -11710,8 +11577,7 @@
         "from_accepted_tag": false,
         "pr_count": 0,
         "total_photo_count": 0,
-        "has_kudoed": false,
-        "color": "#6d0130"
+        "has_kudoed": false
     },
     {
         "resource_state": 2,
@@ -11765,8 +11631,7 @@
         "pr_count": 0,
         "total_photo_count": 0,
         "has_kudoed": false,
-        "suffer_score": 132.0,
-        "color": "#0589b2"
+        "suffer_score": 132.0
     },
     {
         "resource_state": 2,
@@ -11820,8 +11685,7 @@
         "pr_count": 0,
         "total_photo_count": 0,
         "has_kudoed": false,
-        "suffer_score": 35.0,
-        "color": "#f33ab3"
+        "suffer_score": 35.0
     },
     {
         "resource_state": 2,
@@ -11875,8 +11739,7 @@
         "pr_count": 0,
         "total_photo_count": 0,
         "has_kudoed": false,
-        "suffer_score": 142.0,
-        "color": "#800000"
+        "suffer_score": 142.0
     },
     {
         "resource_state": 2,
@@ -11939,71 +11802,6 @@
         "pr_count": 0,
         "total_photo_count": 0,
         "has_kudoed": false,
-        "suffer_score": 11.0,
-        "color": "#8d25db"
-    },
-    {
-        "resource_state": 2,
-        "athlete": {
-            "id": 66821364,
-            "resource_state": 1
-        },
-        "name": "Corsa post workout",
-        "distance": 4823.2,
-        "moving_time": 1746,
-        "elapsed_time": 1788,
-        "total_elevation_gain": 34.3,
-        "type": "Run",
-        "sport_type": "Run",
-        "workout_type": 0,
-        "id": 7388191402,
-        "start_date": "2022-06-29T15:42:18Z",
-        "start_date_local": "2022-06-29T17:42:18Z",
-        "timezone": "(GMT+01:00) Europe/Rome",
-        "utc_offset": 7200.0,
-        "location_city": null,
-        "location_state": null,
-        "location_country": null,
-        "achievement_count": 0,
-        "kudos_count": 0,
-        "comment_count": 0,
-        "athlete_count": 1,
-        "photo_count": 0,
-        "map": {
-            "id": "a7388191402",
-            "summary_polyline": "o_rwGqemiAHAh@WZ[Nc@Jq@?WIuC@EAI?u@CE@m@BMHQLEJCLF\\b@Hj@Lb@pAzFPh@NNRb@VjBHnADDEDATF|AF@Vy@HWFGJYHOHLGd@B`@Cb@@n@Fb@d@dBP\\FXFRAFVhBHRHHFZDDHb@D\\?VB^En@BF?n@DJ@?BHALDj@CNBJ@JAJBPA@AZB`@C`@K\\El@Kf@D`@C?CVCb@CDE\\GRI^BNFFF?X`@Lb@?\\BTCNMVFN?t@BPR`@A\\DPAJJZ@`@FRAFHz@Fv@?LCLAXGREl@@^APDRBb@AJB`@AZBl@AXIr@@PCFHfA@j@AND`@?REV@BD@Ex@@NCJ?LKfA?HKVEd@Al@MhAD@?VAHAb@GX?TQlAEJQTGR?RGTMF_@EONWJg@HK?KHAACDG?GIAIMSGSKmAIm@S[aAgA?CMSUm@Ms@EKCiBSeBQw@AMGUE[EKKAaAh@qAb@IHq@TSJSKKUKc@",
-            "resource_state": 2
-        },
-        "trainer": false,
-        "commute": true,
-        "manual": false,
-        "private": false,
-        "visibility": "everyone",
-        "flagged": false,
-        "gear_id": null,
-        "start_latlng": [
-            45.9778003860265,
-            12.189772529527545
-        ],
-        "end_latlng": [
-            45.97701961174607,
-            12.190280724316835
-        ],
-        "average_speed": 2.762,
-        "max_speed": 9.336,
-        "has_heartrate": false,
-        "heartrate_opt_out": false,
-        "display_hide_heartrate_option": false,
-        "elev_high": 251.6,
-        "elev_low": 224.9,
-        "upload_id": 7873013951,
-        "upload_id_str": "7873013951",
-        "external_id": "29EA19C4-AA95-44A5-B210-31D672CE3560-activity.fit",
-        "from_accepted_tag": false,
-        "pr_count": 0,
-        "total_photo_count": 0,
-        "has_kudoed": false,
-        "suffer_score": 31.0,
-        "color": "#41a6f9"
+        "suffer_score": 11.0
     }
 ]
