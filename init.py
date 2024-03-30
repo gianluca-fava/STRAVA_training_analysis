@@ -208,7 +208,7 @@ def add_activity_data_detailed(ID_activity, position):
             if 'Ferrat' in activity['name']:
                 data_activity['color'] = generate_color('red')
             else:
-                data_activity['color'] =  generate_color('blue')
+                data_activity['color'] = generate_color('blue')
 
             #I position the data correctly according to whether it goes at the top or at the bottom
             if position == 'bottom':

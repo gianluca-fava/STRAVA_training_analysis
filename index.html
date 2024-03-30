@@ -17,7 +17,7 @@
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small" style="margin-top: 10px">
       <a href="#Analysis" class="w3-bar-item w3-button">Analysis</a>
-      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#About" class="w3-bar-item w3-button">About</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
   </div>
@@ -44,14 +44,15 @@
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Analysis</h3>
   </div>
 
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <canvas id="myPieChart" width="400" height="400"></canvas>
+  <div class="w3-row-padding" style="margin-left: 0; margin-right: auto;">
+    <div class="w3-col l5 m5 w3-margin-bottom">
+        <div class="w3-display-container">
+            <canvas id="myPieChart" width="400" height="400"></canvas>
+        </div>
 
         <script>
             // Fetch data from JSON file
-            fetch('month_activity.json')
+            fetch('Data/month_activity.json')
                 .then(response => response.json())
                 .then(data => {
                     // Extract activity names and frequencies from data
@@ -69,13 +70,20 @@
                             datasets: [{
                                 label: 'Activity Frequencies',
                                 data: frequencies,
-                                backgroundColor: ["#77C2FE", "#1578CF", "#003870"] // Define colors for chart slices
+                                backgroundColor: ["#77C2FE", "#2C7DDF", "#003870"] // Define colors for chart slices
                             }]
                         },
                         options: {
                             responsive: true, // Make chart responsive
                             maintainAspectRatio: false, // Don't maintain aspect ratio
                             plugins: {
+                                title: {
+                                      display: true,
+                                      text: 'Monthly Activity Type',
+                                      fontsize: 20,
+                                      fontColor: 'rgba(0, 0, 0, 0.7)',
+                                      position: 'top'
+                                },
                                 legend: {
                                     display: true, // Display legend
                                     position: 'bottom', // Position legend at the bottom
@@ -93,29 +101,137 @@
                     console.error('An error occurred while fetching activity data:', error);
                 });
         </script>
-
-      </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
 
+    <div class="w3-col l6 m6 w3-margin-bottom" style="position: relative;">
+        <div style="position: absolute; top: 35px; right: 0px; z-index: 1000;">
+          <select id="yearSelect" onchange="handleYearChange()" style="padding: 5px 10px; border-radius: 5px; background: #ADC7F7">
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <!-- Aggiungi altri anni se necessario -->
+          </select>
+        </div>
 
-      </div>
+        <!-- Grafico 2: Bar Chart -->
+        <div class="w3-display-container">
+            <canvas id="monthlyDistanceChart" style="width: 100%;"></canvas>
+        </div>
+
+        <script>
+            var monthlyDistanceChart; // Variabile per memorizzare il grafico
+
+            function fetchAndRenderChart(year) {
+                fetch('Data/monthly_distance_run.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        var filteredData = {};
+                        Object.keys(data)
+                            .filter(key => key.startsWith(year))
+                            .sort()
+                            .forEach(key => {
+                                filteredData[key] = data[key];
+                            });
+
+                        var months = Object.keys(filteredData);
+                        var distances = Object.values(filteredData);
+
+                        if (monthlyDistanceChart) {
+                            // Se il grafico esiste già, distruggilo prima di crearne uno nuovo
+                            monthlyDistanceChart.destroy();
+                        }
+
+                        var ctx = document.getElementById('monthlyDistanceChart').getContext('2d');
+                        monthlyDistanceChart = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: months,
+                                datasets: [{
+                                    label: 'Monthly Distance (km)',
+                                    data: distances,
+                                    backgroundColor: '#2C7DDF'
+                                }]
+                            },
+                            options: {
+                                responsive: true,
+                                maintainAspectRatio: false,
+                                scales: {
+                                    yAxes: [{
+                                        ticks: {
+                                            beginAtZero: true,
+                                            fontColor: 'rgba(0, 0, 0, 0.7)',
+                                            fontFamily: 'Arial, sans-serif'
+                                        },
+                                        gridLines: {
+                                            color: 'rgba(0, 0, 0, 0.1)'
+                                        }
+                                    }],
+                                    xAxes: [{
+                                        ticks: {
+                                            fontColor: 'rgba(0, 0, 0, 0.7)',
+                                            fontFamily: 'Arial, sans-serif'
+                                        },
+                                        gridLines: {
+                                            display: false
+                                        }
+                                    }]
+                                },
+                                plugins: {
+                                    legend: {
+                                        display: false
+                                    },
+                                    title: {
+                                      display: true,
+                                      text: 'Monthly Distance Run ' + year,
+                                      fontSize: 20,
+                                      fontColor: 'rgba(0, 0, 0, 0.7)'
+                                    },
+                                }
+                            }
+                        });
+                    })
+                    .catch(error => {
+                        console.error('An error occurred while fetching activity data:', error);
+                    });
+            }
+
+            // Funzione per gestire il cambiamento dell'anno selezionato
+            function handleYearChange() {
+                var selectElement = document.getElementById('yearSelect');
+                var selectedYear = selectElement.options[selectElement.selectedIndex].value;
+                fetchAndRenderChart(selectedYear);
+            }
+
+            // Carica il grafico con l'anno corrente all'avvio
+            fetchAndRenderChart(new Date().getFullYear());
+        </script>
     </div>
-  </div>
+</div>
+
+<style>
+    .show {
+        display: block;
+    }
+</style>
+
+
+
+
 
   <!-- About Section -->
   <style>
     /* Add space */
-    #about {
+    #About {
       scroll-margin-top: 40px;
     }
   </style>
-  <div class="w3-container w3-padding-32" id="about">
+
+  <div class="w3-container w3-padding-32" id="About">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.
+    <p>Hi, I'm Gianluca, a student of Internet of Things, Big Data, Machine Learning at the University of Udine. <br>
+       In my spare time I love going to the mountains and doing sport, so over time thanks to Strava I have collected many activities. <br>
+       I decided to create this to do some analysis and in the meantime learn something new. <br>
+       If you are interested in the project on GitHub you can find the <a href="https://github.com/gianluca-fava/STRAVA_training_analysis" style="color: blue;">repository.</a>
     </p>
   </div>
 
