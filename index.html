@@ -4,17 +4,19 @@
 <title>Activity Analysis</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="icon" href="Figure/logo.png" type="image/png">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>STRAVA</b> Analysis</a>
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card" >
+    <a href="#home" class="w3-bar-item w3-button"><img src="Figure/logo.png" alt="Logo" class="logo"><b>STRAVA</b>&nbsp;Analysis</a>
     <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+    <div class="w3-right w3-hide-small" style="margin-top: 10px">
+      <a href="#Analysis" class="w3-bar-item w3-button">Analysis</a>
       <a href="#about" class="w3-bar-item w3-button">About</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
@@ -22,73 +24,93 @@
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-</header>
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px; border-bottom: 2px solid black;" id="home"></header>
 
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
+  <div class="w3-container w3-padding-32" id="mappa" style="margin-top: 40px;">
+    <iframe src="map_polyline2.html" width="100%" height="600px"></iframe>
+    <p class="w3-opacity custom-font">Click on the marker to see the details of the activity and download the GPX track.</p>
+  </div>
 
-  <!-- Project Section -->
-  <div class="w3-container w3-padding-32" id="mappa" style="margin-top: 20px;">
-    <iframe src="map_polyline2.html" width="100%" height="500px"></iframe>
+  <!-- Analysis Section -->
+  <style>
+    /* Add space */
+    #Analysis {
+      scroll-margin-top: 40px;
+    }
+  </style>
+  <div class="w3-container w3-padding-32" id="Analysis" style="margin-top: -60px;">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Analysis</h3>
   </div>
 
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-  </div>
+        <canvas id="myPieChart" width="400" height="400"></canvas>
 
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
+        <script>
+            // Fetch data from JSON file
+            fetch('month_activity.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Extract activity names and frequencies from data
+                    var activities = Object.keys(data);
+                    var frequencies = Object.values(data);
+
+                    // Get the canvas context
+                    var ctx = document.getElementById('myPieChart').getContext('2d');
+
+                    // Create doughnut chart
+                    var myPieChart = new Chart(ctx, {
+                        type: 'doughnut',
+                        data: {
+                            labels: activities,
+                            datasets: [{
+                                label: 'Activity Frequencies',
+                                data: frequencies,
+                                backgroundColor: ["#77C2FE", "#1578CF", "#003870"] // Define colors for chart slices
+                            }]
+                        },
+                        options: {
+                            responsive: true, // Make chart responsive
+                            maintainAspectRatio: false, // Don't maintain aspect ratio
+                            plugins: {
+                                legend: {
+                                    display: true, // Display legend
+                                    position: 'bottom', // Position legend at the bottom
+                                    labels: {
+                                        usePointStyle: true, // Use point style for legend labels
+                                        padding: 20 // Set padding between legend labels
+                                    }
+                                }
+                            }
+                        }
+                    });
+                })
+                // handles errors that may occur when retrieving JSON data from the file or when parsing JSON data
+                .catch(error => {
+                    console.error('An error occurred while fetching activity data:', error);
+                });
+        </script>
+
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
+
+
       </div>
     </div>
   </div>
 
   <!-- About Section -->
-
+  <style>
+    /* Add space */
+    #about {
+      scroll-margin-top: 40px;
+    }
+  </style>
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
@@ -97,41 +119,11 @@
     </p>
   </div>
 
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-      <h3>John Doe</h3>
-      <p class="w3-opacity">CEO & Founder</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <h3>Jane Doe</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-      <h3>Mike Ross</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
-      <h3>Dan Star</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-  </div>
 
   <!-- Contact Section -->
   <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-    <p>Lets get in touch and talk about your next project.</p>
+    <p>Let me know what you think, or contact me here:</p>
     <form action="/action_page.php" target="_blank">
       <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
@@ -143,10 +135,6 @@
     </form>
   </div>
 
-<!-- Image of location/map -->
-<div class="w3-container">
-  <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
-</div>
 
 <!-- End page content -->
 </div>
@@ -154,7 +142,6 @@
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="Activity Analysis" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
 </body>
